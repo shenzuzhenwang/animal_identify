@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Animal</class>
+ <widget class="QMainWindow" name="Animal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Animal</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="cb_milk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有奶</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_hair">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有毛发</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_fly">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>会飞</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_feather">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有羽毛</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_oviparous">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>生蛋</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_claws">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有爪</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_teeth">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>50</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有犬齿</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_look">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>50</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>目盯前方</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_meat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>吃肉</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_hoof">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有蹄</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_ruminate">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>反刍食物</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_yellow">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黄褐色</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_blackstrips">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑色条纹</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_blackspots">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>110</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑色斑点</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_longleg">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>长腿</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_longneck">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>110</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>长脖子</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_darkspots">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>暗斑点</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_white">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>白色</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_ifly">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>不会飞</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_blackwhite">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>140</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑白色</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_swim">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>会游泳</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_enfly">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>善飞</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_wind">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>170</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>不惧风浪</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_mammal">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>170</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>哺乳动物</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_lip">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>唇裂</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_mouse">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>230</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>善捕鼠</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_feet">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>脚有肉垫</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_horned">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>260</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有角</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_roughskin">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>皮糙肉厚</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_blackeye">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>260</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑眼圈</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_armleg">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>260</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>四肢短小</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_beak">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>290</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>上嘴鹰钩</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_speak">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>模仿说话</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_shortleg">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>290</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>短腿</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_flatmouse">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>290</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>嘴扁平</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_36">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>320</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>皮肤呼吸</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_37">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>320</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>肺呼吸</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_38">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>皮肤光滑</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_39">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>长嘴</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>351</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_forward">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>370</y>
+      <width>89</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>正向搜索</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reverse">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>370</y>
+      <width>89</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>反向搜索</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reset">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>370</y>
+      <width>89</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>清空</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_bird">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>鸟</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_carnivores">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>食肉动物</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_ungulate">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>有蹄动物</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_jump">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>230</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>善跳跃</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_cloven">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>200</y>
+      <width>93</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>偶蹄动物</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>845</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
